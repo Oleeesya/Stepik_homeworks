@@ -1,0 +1,187 @@
+
+* { 
+ margin: 0;
+ padding: 0;  
+ border: 0;
+ box-sizing: border-box;
+ font-family: "Roboto", sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #007765;
+    display: flex;
+	align-items: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+	height: 84px;
+}
+	
+.container {
+    max-width: 1219px;
+    padding: 0 54px 0 55px;
+    margin: 0 auto;
+	width: 100%;
+}
+.header_body {
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+	align-items: center;
+}
+header_right
+.the_problem {
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+	padding-top: 55px;
+}
+.PiedPiperCoin, .the_team, .the_problem {
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+.header_right a+a::before {
+    content: '|';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    width: 7px;
+    height: 29px;
+    left: 878px;
+    top: 28px;
+    padding: 0 8px;
+}
+.container2 {
+    min-height: 403px;
+    display: flex;
+    justify-content: center;
+}
+.container2 {
+    background: url(image-8.png) 0 0 /cover no-repeat;
+}
+.content1 {
+    color: white;
+    position: absolute;
+    height: 83px;
+    top: 244px;
+    font-size: 72px;
+    font-style: normal; 
+    font-weight: 500;
+    line-height: 84px;
+ }
+.the_problem_container {
+    background: #EEEEEE;
+    padding-top: 55px;
+}
+.content2 p {
+    margin-block-start: 32px;
+}
+.container3 {
+    padding-bottom: 92px;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 54px;
+    margin: 0 auto;    
+}
+h2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    color: #007765;
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+.content2 {
+    color: #000000;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.hero {
+    background: url(image-9.png);
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 127px;
+    padding-top: 128px;
+}
+.hero__messege {   
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container5 {
+    max-width: 1219px;
+    padding: 48px 54px 92px 55px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container5 p {
+    margin-block-start: 32px;
+}
+.logo2 {
+    padding-right: 48px;
+    float: left;
+}
+.container6 {
+    background-color: #EEEEEE;
+}
+.container6_1 {
+    flex-wrap: wrap;
+    max-width: 1219px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    min-height: 789px;
+    padding-top: 56px;
+    padding: 58px 55px 0 55px;
+    background-color: #EEEEEE;
+ }
+ .nameblock {
+     height: 231px;
+     margin-bottom: 82px;
+     flex-basis: 33.3333%;
+     text-align: center;
+ }
+ .nameblocks {
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+ }
+ .team__title {
+     padding-bottom: 56px;
+ }
+ .footer {
+     max-width: 1219px;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 21px;
+     text-align: center;
+     color: #FFFFFF;
+     padding: 48px 339px 64px 340px;
+     text-align: center;
+     margin: 0 auto;
+ }
+ footer {
+    background-color: #333333;
+ }

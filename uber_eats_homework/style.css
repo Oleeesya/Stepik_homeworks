@@ -1,0 +1,266 @@
+body, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*------HEADER------*/
+
+.header {
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16); 
+    position: fixed;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;   
+   
+}
+
+.btn {
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.85em;
+    color: #1D1D1D;
+    margin-right: 27px;
+}
+
+/* style for .section-search */
+
+.section-search {
+    padding-top: 128px;
+}
+
+.search {
+    border: none;
+    color: #626262;;
+    mix-blend-mode: normal;
+    border-bottom: 1px solid rgba(38, 38, 38, 0.16);
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 56px 0;
+    text-decoration: none;
+
+}
+
+/* style for .heading */
+
+.heading {
+    color: #1D1D1D;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 1.55em;
+    margin-bottom: 16px;
+    padding: 0 5px;
+}
+
+/* style for section-nav-menu */
+
+.section-nav-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    justify-items: center; 
+    grid-column-gap: 3px;
+    grid-row-gap: 8px;
+    margin: 0 auto;
+}
+
+.heading2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #1D1D1D;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+
+.menu-section {
+    padding: 0 5px;
+}
+
+.menu-section-discription {
+    padding-bottom: 4px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #626262;
+}
+
+.menu-section-delivery {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.62em;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+}
+
+/* style for footer*/
+
+.footer {
+    background-color: #262626;
+    width: 100%;
+    padding-top: 56px;
+    margin-top: 100px;
+}
+
+.footer-logo {
+    padding-bottom: 40.69px;
+    border-bottom: 1px solid #FFFFFF;
+  
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    border-bottom: 1px solid #FFF;
+    margin-top: 32px;
+    padding-bottom: 25px;
+}
+
+/* style for footer-section1 */
+
+.language {
+    background: #3B3B3B;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #FFF;
+    padding: 12px 128px 12px 48px;
+    background: #3B3B3B;
+    border-radius: 2px;
+ }
+
+.lang:before {
+    content: url(img/world.png);
+    position: absolute;
+    padding: 12.14px 16.28px;
+}
+
+.hashtag {
+    color: #49A144;
+    font-size: 16px;
+}
+
+.hashtag-ubereats {
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 33px;
+}
+
+.social-network {
+    margin-top: 20px;
+}
+
+.social-network-img {
+    margin-right: 16px;
+}
+
+/* style for footer-section2 */
+
+.footer-section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section2-discription{
+    font-weight: normal;
+    font-size: 13px;
+    color: #FFF;
+    margin-bottom: 23px;
+}
+
+/* style for footer-section3 */
+
+.footer-section3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section3-discription {
+    font-weight: normal;
+    font-size: 13px;
+    color: #FFF;
+    margin-bottom: 23px;
+}
+
+/* style for footer-link */
+
+.footer-link {
+    padding: 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.footer-link-img {
+    padding-right: 41px;
+}
+
+/* style for bottom-row-footer */
+
+.bottom-row-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 40px;
+    padding-bottom: 24px;
+}
+
+.btn-up {
+    position: fixed;
+    top:auto; 
+    right: 0;
+    bottom:0px; 
+    z-index:1000;  
+    display:block; 
+    overflow:hidden;
+    opacity: 0.5;
+}
+
+.bottom-row-footer__discription {
+    font-weight: normal;
+    font-size: 11px;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

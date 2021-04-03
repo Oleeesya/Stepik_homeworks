@@ -1,0 +1,22 @@
+body {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+h1, h2, h3 {
+	line-height: 1,5em; /*margin-top Устанавливает величину отступа от верхнего края элемента*/
+    font-family: sans-serif;
+}
+h1 {
+	font-size: 32px;
+}
+.table_style {
+	border: 1px solid black;
+}
+th, td {
+	border: 1px solid black;
+}
+figure {
+	font-style: italic;
+	float: right;
+}
+ 
